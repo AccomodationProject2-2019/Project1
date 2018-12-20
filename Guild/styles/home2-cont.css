@@ -1,0 +1,47 @@
+﻿body
+{
+   
+}
+
+#header_container
+{
+    width : auto;
+    display: grid;
+    grid-column-gap : 30px;
+    grid-row-gap : 20px;
+    color : white;
+
+
+
+}
+
+#logo-main {
+   
+    grid-column-start : 1;
+    grid-column-end: 2;
+    max-width : max-content;
+  
+}
+
+
+#main_search {
+    grid-column-start: 2;
+    grid-column-end: 4;
+   
+    /* float : left;*/
+}
+
+#user {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    
+    /*float : left:*/
+}
+
+#settings 
+{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    /* float : left;*/
+}
+

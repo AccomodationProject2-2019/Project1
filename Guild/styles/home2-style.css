@@ -1,0 +1,23 @@
+﻿body
+{
+}
+
+#logo-main 
+{
+    background-color : black;
+}
+
+#main_search 
+{
+    background-color : green;
+}
+
+#user
+{
+    background-color : yellow;
+}
+
+#settings {
+    background-color: yellow;
+}
+}

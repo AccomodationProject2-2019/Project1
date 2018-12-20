@@ -1,0 +1,110 @@
+CSS Document 
+
+header {
+padding-left : 15px;	
+}
+
+.logo{
+background-color: white;
+color : white;
+border-left-color: white;
+background-image:url(/Guild/Images/logo/guild_logo.png);
+background-repeat : 0;
+}
+#adverts_home{
+padding-left : 15px;	
+}
+
+.farLeft{
+padding-left : 15px;
+}
+.SingUp_LogIn{
+	font-size: 12px;
+	text-align: center;
+	line-height : -3px;
+	
+	
+	
+}
+
+.label_1{
+font-size : 13px;	
+padding : 5px;
+
+}
+.search_button{
+padding-bottom :  0;
+position : relative;
+font-size : 13px;
+	
+	
+}
+
+.search_bar{
+	padding : 5px;
+	height : 15px;
+	border-radius : 6px;
+}
+.label_1{
+font-weight : bolder;
+}
+
+.search_button{
+	font-weight : bold;
+	border-radius : 3px;
+	
+}
+
+Main
+#main_content{
+background-color : black;	
+}
+End Main*/
+
+/*footer*/
+footer{
+	border-top : white;
+	font-weight:bolder;
+	text-decoration: none;
+	font-size : 1.3em;
+	
+}
+
+
+a{
+	text-decoration: none;
+	color  :  black;
+	
+}
+.left{
+	text-decoration-style : none;
+	color : green;
+	
+	
+}
+
+.right{
+	text-decoration-style : none;
+	color : green;
+	
+	
+}
+ 
+.center{
+color : green;
+text-decoration-style : none;
+}
+
+left:hover{
+background-color : navy;
+}
+
+center:hover{
+background-color : navy;
+}
+
+right:hover{
+background-color : navy;
+}
+	
+

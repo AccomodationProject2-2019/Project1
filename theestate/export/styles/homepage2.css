@@ -1,0 +1,179 @@
+/* My Container */
+
+.myContainer
+{
+    display : grid;
+    grid-auto-flow: row; 
+    grid-template-columns: 20% 50% 20%;
+    grid-gap: 2%;
+    padding: 5px; 
+    justify-content: space-around;
+
+}
+
+.left-aside
+{
+    
+    grid-column: 1/2;
+    
+}
+.left-aside
+{
+    display : flex;
+    flex-flow: column; 
+    /* justify-content: space-around; */
+    align-items: flex-start;
+
+
+}
+
+.My_Messages_btn
+{
+    
+}
+.My_Bookings_btn
+{
+   
+}
+.My_Rentals_btn
+{
+    
+}
+.My_Deals_btn
+{
+   
+}
+
+.My_Messages_btn,
+.My_Bookings_btn,
+.My_Rentals_btn,
+.My_Deals_btn,
+.My_Feed_btn
+{
+    padding : 20px;
+    border-bottom: none;
+    
+    
+}
+
+/* Main */
+.main-content-home2
+{
+    grid-column: 2/3;
+}
+
+.main-content-home2
+{
+    display : flex;
+    flex-flow : column;
+    padding : 5px;
+}
+
+.greeting-home
+{
+    padding: 20px;
+}
+
+.Seller-home
+{
+    display : flex;
+    flex-flow : row;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+
+.Seller-home> a > img 
+{
+    border-radius: 50%;
+    padding : 20px;
+    height: 130px;
+    align-self: start;
+}
+.user_info
+{
+    align-self: center;
+    border-radius: 50%;
+    padding : 20px;   
+}
+
+.Deal_info_home
+{
+    align-self: center; 
+    padding : 20px;
+}
+
+
+/* Right */
+
+.right-aside
+{
+    
+    grid-column: 3/4;
+    padding: 5px;
+    /* border : 1px inset black; */
+}
+
+.right-aside
+{
+    padding : 5px;
+    display: flex;
+    flex-flow: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.right-aside-advert
+{
+    height: 300px;
+    
+}
+
+.right-aside-advert:hover
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    -webkit-transform: 40px ;
+    -moz-transform: 40px ;
+    -ms-transform: 40px ;
+    -o-transform: 40px;
+    transform: 40px;
+
+    background-color : whitesmoke;
+}
+
+.right-aside-feed
+{
+    height : auto ;
+    border : 5px inset whitesmoke;
+
+}
+
+
+
+.right-aside-advert,
+.right-aside-feed
+{
+    padding : 20px;
+}
+
+.comments-spacing
+{
+    padding : 20px;
+    background-color: whitesmoke;
+}
+
+section{
+    padding : 20px;
+    border-bottom: 1px solid black;
+}
+
+.My_Feed_btn
+{
+    display : none;
+}
+
+

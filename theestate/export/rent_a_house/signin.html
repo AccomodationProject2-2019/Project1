@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Guild.com/SignUp</title>
+	<link rel = "stylesheet " type = "text/css" href = "LogIn-SignUp.css" media = "screen">
+	<link rel="stylesheet" type="text/css" href="../styles/bootstrap4/bootstrap.min.css">
+	<link href="../plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+		
+			
+</head>
+<body>
+		
+	<main class = "Login-SignUp-container">
+				
+		<div class="logo logo-LogIn">
+			
+			<a href="../homepage.php">
+				<img src="../images/logo.png" alt="Guild Logo"><br />
+				<label class = "Logo-text-align"> Guild</label>
+			</a>			
+		</div>
+			
+				
+		<div class = "flex-method-row flex-put-center">		
+		<h1>Sign Up on Guild</h1>
+		</div>
+		
+			
+			
+		<form action="signin.php" method="POST">  
+			
+			<!-- Input First Name -->
+			<label class = "flex-method-row flex-put-center padding-top" for = "txtInputFirstName">First Name</label>	
+			<div class = "form-group input-group-lg flex-method-row flex-put-center over-padding">
+					
+				<span class = "input-group-addon">
+					<i class = "fa fa-user"></i>
+				</span>
+				<input class = "form-control" type="text" name="FirstName" required="required" placeholder="Enter First Name" id = "txtInputFirstName"/>
+			</div>
+
+			<!-- Input Last Name -->
+			<label class = "flex-method-row flex-put-center" for = "txtInputLastName">Last Name</label>
+			<div class = " form-group input-group-lg  flex-method-row flex-put-center over-padding ">
+					
+				<span class = "input-group-addon">
+					<i class = "fa fa-user"></i>
+				</span>
+					
+				<input class = "form-control" type="text" name="LastName" required="required" placeholder="Enter Last Name" id = "txtInputLastName"/>
+			</div>
+
+			<!-- Input UserName -->
+			<label class = "flex-method-row flex-put-center" for = "exampleInputName">Username</label>	
+			<div class = "form-group input-group-lg  flex-method-row flex-put-center over-padding">
+					
+				<span class = "input-group-addon">
+					<i class = "fa fa-user"></i>
+				</span>
+				<input class = "form-control" type="text" name="username" required="required" placeholder="Enter User Name" id = "txtInputUserName"/>
+			</div>
+
+
+			<!-- Input Email -->
+			<label class = "flex-method-row flex-put-center" for = "exampleInputName">Email</label>	
+			<div class = "form-group input-group-lg  flex-method-row flex-put-center over-padding">
+					
+				<span class = "input-group-addon">
+					<i class = "fa fa-envelope"></i>
+				</span>
+				<input class = "form-control" type="email" name="Email" required="required" placeholder="Enter Your Email" id = "txtInputEmail"/>
+			</div>
+
+			<!-- Input Phone-->
+			<label class = "flex-method-row flex-put-center" for = "numInputUserPhne">Phone</label>	
+			<div class = "form-group input-group-lg  flex-method-row flex-put-center over-padding">
+					
+				<span class = "input-group-addon">
+					<i class = "fa fa-phone"></i>
+				</span>
+				<input class = "form-control" type="text" name="userPhone" required="required" placeholder="eg +00263 774 565 677" id = "numInputUserPhone"/>
+			</div>
+
+			<!-- Input Password -->
+
+			<label class = "flex-method-row flex-put-center" for = "InputPassword">Password</label>
+			<div class = "form-group input-group-lg  flex-method-row flex-put-center over-padding"> 
+
+					
+				<span class = "input-group-addon">
+					<i class = "fa fa-lock"></i>
+				</span>
+
+				<input class = "form-control" type="password" name="password" required="required" placeholder="Enter password" id = "InputPassword"/>
+			</div>
+
+			<!-- Confirm Password -->
+			<label class = "flex-method-row flex-put-center" for = "InputPassword">Confirm Password</label>	
+			<div class = "form-group input-group-lg  flex-method-row flex-put-center over-padding">
+					
+				<span class = "input-group-addon">
+					<i class = "fa fa-lock"></i>
+				</span>
+				<input class = "form-control" type="password" name="cpassword" required="required" placeholder="Confirm password" id = "InputConfirmPassword" />
+			</div>
+			
+			<!-- Button Submit -->
+			
+			<div  class = "form-group input-group-lg btn btn-default flex-method-row flex-put-center margin-padding-group over-padding">
+				
+				<button type="submit" name="signin" value="Sign Up">
+					<label>Submit</label>
+				</button>
+			
+			</div>
+			</form>
+			<!-- Button LogIn? -->
+			
+			    <a class = "over-padding" href="login.html">
+					<label>Already have an account?</label>
+				   <button>
+					<label>Log In</label> 
+				   </button>
+				</a>
+			
+
+			<div class  = "flex-method-row  over-padding">
+					<a href="help-logIn.php">
+						<label class = "forgot-pass">Need help Signing Up?</label>
+					</a>
+			</div>
+				
+			
+	</main>
+		
+	<script src="../styles/bootstrap4/popper.js"></script>
+	<script src="../styles/bootstrap4/bootstrap.min.js"></script>
+</body>
+</html>
+		
+		
+</body>
+</html>

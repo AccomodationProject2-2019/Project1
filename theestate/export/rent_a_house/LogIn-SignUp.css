@@ -1,0 +1,133 @@
+/* LogIn and SignUp Container */
+
+.Login-SignUp-container
+{
+    width : auto;
+    height: auto;
+    display : flex;
+    flex-flow : column;
+    justify-content: space-between;
+    align-content : center;
+
+}
+
+/* Log In */
+
+.logo-LogIn 
+{
+    
+   
+    width : auto;
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+   
+    height: auto;
+    text-decoration: none;
+    padding: 20px;
+   
+}
+
+
+.flex-method-row 
+{
+    display: flex;
+    flex-flow : row;
+    
+}
+
+.flex-method-column
+{
+    display: flex;
+    flex-flow : column;
+}
+.logo-LogIn > a {
+    text-decoration: none;
+    background-color: black;
+    border-radius: 50px;
+    padding: 30px;
+    
+}
+.Logo-text-align
+{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    color : white;
+    
+
+}
+
+.flex-put-center
+{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.margin-padding-group
+{
+    margin-left : 5%; 
+    margin-left : 5%; 
+    padding : 50px;
+}
+
+
+
+/* Sign Up */
+
+.over-padding
+{
+    padding: 50px;
+}
+
+.padding-top
+{
+    padding-top : 50px;
+}
+
+/* Forgot Password Modal  */
+
+#modal,
+#modal2,
+#modal3,
+#modal4
+{
+position: fixed;
+z-index : 10;
+left : 0;
+top : 0;
+height: 100%;
+width : 100%;
+overflow : auto;
+background-color : rgba(0,0,0,0.5);
+display: none;
+}
+
+.modal_content
+{
+    background-color : #f4f4f4;
+    padding : 20px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),
+    0 7px 20px 0 rgba(0,0,0,0.17);   
+}
+
+.closebtn
+{
+    float : right;
+    color : red;
+    font-size : 30px;
+    cursor : pointer;
+}
+
+.forgot_pass_modal_label
+{
+    font-weight: bolder;
+}
+
+.nect-label
+{
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="real-estate">
+    <meta name="author" content="Brighton Moyo">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>www.guild.com</title>
+    <!-- Bootstrap core CSS -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-wonkaround.css" rel="stylessheet">
+
+    <!-- Custom styles for Guild.com -->
+    <link href="guild.com.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="footer.css" rel="stylesheet">
+    <link href="default.css" rel="stylesheet">
+    <link href="font_styles.css" rel="stylesheet">
+    <link href="search_engine.css" rel="stylesheet">
+    <link href="content.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="../../www.guild.com">Welcome to Guild.com</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collaspe">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <!--Top header -->
+
+        <div class="pull-right">
+            <ul class="header-top-links">
+                <li class="dropdown default-dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">ENG <i class="fa fa-caret-down"></i></a>
+                    <ul class="custom-menu">
+                        <li><a href="#">English (ENG)</a></li>
+                        <li><a href="#">Ndebele (Nde)</a></li>
+                        <li><a href="#">Shona (Sh)</a></li>
+                        <li><a href="#">French (FR)</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown default-dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">USD <i class="fa fa-caret-down"></i></a>
+                    <ul class="custom-menu">
+                        <li><a href="#">USD ($)</a></li>
+                        <li><a href="#">EUR (€)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+        </div>
+        <!--Search form -->
+        <div id="search-form">
+            <form method="get" action="https:www.guild.com/advanced-search//">
+                <input id="search-engine" type="text" name="term" onfocus="this.value=''" id="big-search" autocomplete="off" onkeyup="suggest(this.value);" onblur="fill();" placeholder=" I am looking for...">
+                <select id="product-cate" name="product-cat">
+                        <option value>All catergories</option>
+                        <option value="tourist">Tourist Resorts & more</option>
+                        <option value="rent-houses">Rental Houses to Let</option>
+                        <option value="lodge-facilities"> Best Lodges in Zimbabwe</option>
+                        <option value="wedding-venues"> Best Wedding Venues in Zimbabwe</option>
+                        <option value="office-space"> Strategic office spaces to let</option>
+                        <option value="corporate-venue"> Corporate venues for meetings and more</option>
+                        <option value="properties">Real Estate Properties</option>
+                        <option value="student-housing">Student Housing facilities</option>
+                        <option value="warehouse">Warehousing facilities</option>
+                    </select>
+                <input id="submit-button" type="submit" name="search_me" value="Search">
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>

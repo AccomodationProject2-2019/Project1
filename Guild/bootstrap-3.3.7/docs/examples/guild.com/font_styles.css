@@ -1,0 +1,50 @@
+/* pseudo classes for guild.com */
+
+.wrap a:hover {
+    text-decoration-line: underline;
+}
+
+footer a:visited {
+    color: rgb(20, 92, 147)
+}
+
+.nav-menu li:hover {
+    color: white;
+}
+
+.nav-menu a:visited {
+    color: #000;
+}
+
+.nav-menu ul li:hover {
+    cursor: pointer;
+    background-color: limegreen;
+    transition: background 1s;
+}
+
+#wrap-list-signup a:visited {
+    color: white;
+}
+
+#wrap-list-signin a:visited {
+    color: white;
+}
+
+#FAQs-button a:visited {
+    color: white;
+}
+
+
+/* anchor styles */
+
+.wrap a:link {
+    color: rgb(20, 92, 147);
+}
+
+.nav-menu :link {
+    color: black;
+}
+
+#FAQs-button a:link {
+    color: white;
+}

@@ -1,0 +1,30 @@
+CREATE table users (
+user_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+username VARCHAR(20) NOT NULL,
+email VARCHAR(60) NOT NULL,
+pass VARCHAR(100) NOT NULL,
+hash VARCHAR(32) NOT NULL,
+user_level TINYINT(1) NOT NULL DEFAULT 0,
+active BOOL NOT NULL DEFAULT 0,
+reg_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY(user_id),
+UNIQUE KEY(email),
+INDEX login (email, pass)
+);
+
+CREATE table houses (
+house_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+user_id INT NOT NULL,
+location LONGTEXT NOT NULL,
+vacancy BOOL NOT NULL DEFAULT 1,
+rent TINYINT NOT NULL,
+img_name VARCHAR(60) NOT NULL,
+description LONGTEXT NOT NULL,
+upload_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY(house_id)
+);
+
+CREATE table house_images (
+house_id INT NOT NULL,
+img_name VARCHAR(60) NOT NULL
+);

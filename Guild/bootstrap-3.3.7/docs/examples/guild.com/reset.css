@@ -1,0 +1,13 @@
+/* Display Html5 structural elements as blocks */
+
+article,
+aside,
+figure,
+figcaption,
+footer,
+hgroup,
+header,
+section,
+nav {
+    display: block;
+}

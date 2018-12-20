@@ -1,0 +1,416 @@
+.grid-container
+{
+    display : block ;
+    top : 175px;
+    /* background-blend-mode: 30%;
+    background-image: url(2017.png);  */
+    
+   
+    
+
+}
+
+/* top info */
+
+.top-info
+{
+    
+    display : flex;
+  
+    flex-flow: row;
+
+    justify-content: space-around; 
+
+    /* border : 1px inset rgb(37, 35, 35); */
+
+   
+    
+     
+
+}
+.grid-check1
+{
+    flex-basis: 45%;
+}
+
+.grid-check2
+{
+    flex-basis : 45%;
+}
+
+.grid-check1,
+.grid-check2
+{
+    height : 170px;
+    padding : 1em;
+}
+
+.grid-check1:hover,
+.grid-check2:hover
+{
+cursor: pointer;
+background-color: rgba(00, 00, 00);
+/* background-color : rgb(00,225,225); */
+/* color: rgb(00, 09, 00); */
+color : white;
+transform: 50px;
+border-radius : 4px;
+-webkit-transform : 50px;
+transition-delay: 0.5s;
+transition-duration: 1.5s;
+box-shadow : 5px 8px 5px rgb(00, 11, 19);
+animation-direction: right;
+filter: brightness(170%);
+}
+
+/*Middle*/
+
+.middle
+{
+    display : flex;
+    justify-content: space-around;
+    padding : 5px;
+    flex-flow : row;
+
+}
+
+.agent_social
+{
+	margin-top: 19px;
+}
+.agent_social_item
+{
+	display: inline-block;
+	width: 31px;
+	height: 31px;
+	border: solid 2px #fd784f;
+	border-radius: 50%;
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	margin-right: 9px;
+}
+.agent_social_item:last-child
+{
+	margin-right: 0px;
+}
+.agent_social_item a
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.agent_social_item a i
+{
+	display: block;
+	position: relative;
+	color: #fd784f;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-size: 12px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.agent_social_item:hover
+{
+	background: #fd784f;
+}
+.agent_social_item:hover a i
+{
+	color: #FFFFFF;
+}
+.agents_more_button
+{
+	background: #fd784f;
+	margin-top: 100px;
+}
+.agents_more_button a
+{
+	color: #FFFFFF;
+}
+
+.image 
+{
+    flex-basis: 25%;
+    /* border : 1px inset rgb(00,225,225); */
+    /* border : 1px inset rgb(37, 35, 35); */
+    height: 300px;
+    justify-content: center;
+    align-items: center;   
+
+
+}
+
+.image
+{
+    display : flex;
+    flex-flow : column;
+    /* justify-content: space-around; */
+    
+}
+.caption
+{
+    flex : 2;
+    order: 2;
+    text-decoration-style: none;
+   
+    
+}
+.text 
+{
+   /* padding: 8%;   */
+   font-weight : bolder ;
+   font-size : 16px;
+   /* background-color : rgba(225,225,225,0.5); */
+   /* border : 1px inset rgb(00,225,225); */
+}
+
+
+.image > a > img
+{
+    border-radius : 50%;
+    /* justify-content: center; */
+    flex : 1;
+    order: 1;
+    background-color : rgba(225,225,225,0.5); 
+    
+    
+}
+
+.image:hover
+{
+    filter: brightness(150%);
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+    animation-direction: right;
+    color : black;
+
+
+}
+.details
+{
+    flex-basis : 65%;
+}
+
+.details
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.details
+{
+   
+    /* border : 1px inset rgb(37, 35, 35); */
+    margin-top : 30px;;
+    margin-bottom : 10%;
+    padding : 10px;
+  
+
+}
+
+.header2
+
+{
+   
+    
+    background-color : rgb(00,225,225);
+    height: 60px;
+    padding : 20px;
+    opacity : 0.6;
+    
+}
+
+.header2:hover,
+.main-content:hover
+{
+    filter : brightness(110%);
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+}
+.text2
+{
+    font-size: 28px;
+    vertical-align: center;
+    margin : 20px;
+    text-align : center;
+    font-weight: bolder;
+}
+.main-content
+{
+   
+    background-color : none;  
+}
+.text3
+{
+    font-size : 19px;
+    text-align : center;
+    background-color : rgb(00,225,225);
+    margin-left : 25%;
+    margin-right : 25%;
+    opacity : 0.7;
+    font-weight: bolder;
+}
+
+.text4
+{
+    text-align : center;
+    font-weight: bold;
+    color : rgb(167, 170, 180);
+    /* color : rgb(44, 43, 43); */
+}
+
+.one-flex,
+.two-flex,
+.three-flex,
+.four-flex,
+.five-flex,
+.six-flex
+{
+    justify-self: center;
+    flex-shrink: auto;
+    flex-wrap: wrap;
+}
+
+.one-flex
+{
+    flex : 1;
+}
+.two-flex
+{
+    flex : 2; 
+}
+.three-flex
+{
+    flex : 3;
+}
+.four-flex
+{
+    flex : 4;
+
+}
+.five-flex
+{
+    flex : 5;
+}
+.six-flex
+{
+    flex : 6;
+}
+
+.bottom
+{
+    display : grid;
+    /* flex-flow : column; */
+    align-items: center; 
+    /* justify-content: space-around; */
+    
+
+}
+
+.bottom-sub
+{
+display : grid;
+grid-template-columns: 20% 20% 20%;
+grid-auto-rows: auto;
+justify-content: space-around;
+    
+}
+
+.shiftleft1
+{
+    grid-row : 1/2;
+    background-color : rgba(225,225,225,0.5); 
+}
+.shiftleft2
+{
+    grid-row : 1/2;
+    background-color : rgba(225,225,225,0.5); 
+}
+
+.shiftleft3
+{
+    grid-row : 1/2; 
+    background-color : rgba(225,225,225,0.5); 
+}
+
+.shiftleft1:hover,
+.shiftleft2:hover,
+.shiftleft3:hover
+{
+    transform: 50px;
+    border-radius : 4px;
+    transform: 50px;
+    -webkit-transform : 50px;
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+    box-shadow : 5px 8px 5px rgb(00, 11, 19);
+    animation-direction: right;
+    filter: brightness(170%); 
+}
+
+.text5
+{
+    text-align: center;
+}
+
+.footer-grid
+{
+    display : grid;
+    grid-template-columns: 10% 10% 10%;
+    grid-auto-rows: auto;
+    justify-content: space-around;
+}
+
+.first
+{
+    grid-row : 1/2;
+    border-radius : 4px;
+}
+
+.second
+{
+    grid-row : 1/2;
+    border-radius : 4px;
+}
+
+.third
+{
+    grid-row : 1/2;
+    border-radius : 4px;
+}
+
+.first:hover,
+.second:hover,
+.third:hover
+{
+    transform: 50px;
+    border-radius : 4px;
+    transform: 50px;
+    -webkit-transform : 50px;
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+    box-shadow : 5px 8px 5px rgb(00, 11, 19);
+    animation-direction: right;
+    filter: brightness(110%);
+    color : blue;
+}
+
+/***********************
+CONTACT SELLER
+**********************/
+
+
+

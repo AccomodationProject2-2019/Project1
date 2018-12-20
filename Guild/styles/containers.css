@@ -1,0 +1,552 @@
+
+/*body*/
+
+ body{
+	max-width : 100%;
+	margin : 0;
+	height : auto;
+	/* flex-shrink: auto;Not sure what it does */ 
+	/* top: 0;*/
+    
+}
+
+/*header*/
+
+#global_header
+{
+max-width : max-content;
+min-height : 70px;
+position : relative; 
+/* flex-shrink: auto; */
+display: table-cell;
+left : 0;
+right : 0;
+bottom: 0; 
+overflow: hidden;
+	
+}
+
+.global_header:after{
+clear : both;
+content: "";
+display: initial;
+
+}
+
+
+.left_content
+{
+float: left;
+display: block;	
+position: relative;
+/*object-fit: contain;*/
+	
+}
+
+
+.logo{
+width : 163px;
+min-height : 70px;
+position: relative;
+
+}
+
+
+	
+
+.right_content
+{ 
+	
+	min-height: 70px;
+	max-width : max-content;  
+	margin-left : 4px;
+    padding: 2px; 
+	display : inline;
+	/* position: relative; */
+	/* object-fit: contain; */
+	
+	
+}
+
+#adverts_home{
+	
+	/* color : white;
+	border-left-color: white;
+	padding-left  : 15px;*/
+	width : 300px; 
+	/* position: relative; */
+}
+
+
+.farLeft
+{
+	float:left;
+	min-height : 70px;
+	position: relative;
+	margin-left : 5px;
+	width: max-content;
+}
+
+	
+
+.SingUp_LogIn
+{
+height : 40%;
+max-width : max-content;
+padding-right : 0px;	
+padding-left : 30%;
+position: relative;
+ /* object-fit: contain;  */
+/* align-content: center; */
+}
+
+
+.SingUp_LogIn_btn
+{
+background-color : whitesmoke;
+color  : black;
+border-bottom :	1px solid green;
+border-right: 1px solid green;
+border-left : 1px solid green;
+border-radius : 2px;
+max-width : max-content; 
+text-align : center;
+font-weight: bolder;
+height : 25px;
+position: relative;
+vertical-align: center;
+padding-left: 20px;
+padding-right: 20px;
+object-fit: contain;
+margin-top: 5px;
+
+
+	
+}
+
+.SingUp_LogIn_btn:hover
+{
+background-color : lime;
+border-bottom :	2px solid green;
+border-right: 2px solid green;
+border-left : 2px solid green;
+
+
+}
+
+
+.search 
+{
+margin-left : 0;
+height : 60%;	
+max-width : max-content;
+padding-top:  12px;
+position: relative;
+/* overflow: hidden; */
+}
+
+.search_bar
+{
+min-width	 : 200px;	
+}
+
+.links
+{
+max-height : 70px;
+max-width: max-content;	
+margin-top: 5px;
+/* object-fit: contain; */
+/* object-position: initial; */
+}
+
+.socialmedia_links
+{
+
+margin: 5px;
+padding-bottom : 0;
+padding-left : 0;
+display: block;
+float: left;
+/* object-fit: contain; */
+position: relative;
+}
+
+
+#cart_counter
+{
+	margin: 0;
+	padding: 0;
+}
+
+.cart_count
+{
+padding-left : 15px;
+max-width : max-content;
+background-color: none;
+margin-top: 5px;
+object-fit: contain; 
+/* -webkit-object-position: initial; not sure what it does 	 */
+}
+
+/*end Header*/
+
+/*nav*/
+
+#global_nav
+{
+max-width : 100%;
+min-height : 60px ;
+margin-top: 3px;
+/* left : 0; */
+overflow: visible;
+
+
+}
+
+.hidden-list{
+ display: none;
+ position: absolute;
+ align-self: center;
+ min-width : 170px; 
+ padding-top : 10px;
+ margin: 3px;
+}
+
+
+ #nav_list{ 
+	list-style-type: none;
+	margin : 10px;
+	/* padding : 2px;
+	padding-left :20px;*/
+	padding-bottom: 0px; 
+	max-height: max-content;
+	
+	
+
+}
+
+
+ #nav_list:after{
+	content :"";
+	clear: both;
+	display : initial;
+	
+}
+#nav_list:before{
+	content :"";
+	clear: both;
+	display : initial;
+	
+}
+
+
+ .services
+ {
+	 
+	display : block;
+	position: relative; 
+	 float: left; 
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top : 0px;
+	padding-bottom: 0px;
+	font-weight: bolder;
+	
+	
+}  
+
+.services2{
+	list-style-type : none;
+}
+
+.services:hover .hidden-list{
+	display: block;
+	transform: scale(1.1);
+	-webkit-backdrop-filter: opacity(0);
+	
+} 
+
+ 
+	
+
+
+/*end Nav*/
+
+/*Main*/
+
+#newDeals,
+#properties,
+#properties-to-let,
+#bookings
+{
+	width :auto;
+	margin : 20px 10px 20px 10px;
+}
+
+#properties,
+#properties-to-let,
+#bookings
+{
+	margin-top :60px;
+}
+
+.products-header-wrapper
+{
+	width : 100%;
+	height : 40px;
+
+}
+.wrapper
+{
+	/* margin-left : 5px; */
+	width : 100%;
+	border : 1px inset snow;
+	height: auto;
+	
+}
+
+.wrapper:after
+{
+	clear: both;
+	content : "";
+	display : block;
+	/* position : absolute; possible-solution */
+}
+
+.box-item1,
+.box-item2,
+.box-item3,
+.box-item4,
+.box-item5,
+.box-item6
+{
+	
+	height : 370px;
+	float : left;
+	
+	
+}
+ 
+.box-item1,
+.box-item6
+{
+	width : 5%;
+	
+	
+}
+
+.box-item2,
+.box-item3,
+.box-item4,
+.box-item5
+{
+	width : 22%;
+	margin : 2px;
+	border : 1px inset white;
+	border-radius : 10px;
+	
+	
+}
+
+.box-item2,
+.box-item3,
+.box-item4
+{
+	/* border-right : 0.5px inset black; */
+	
+}
+
+.product-nav-right
+
+{
+	padding-right : 25px;
+	padding-top : 160px;
+}
+
+.product-nav-left
+{
+	padding-left : 18px;
+	padding-top : 150px;
+}
+
+.item-details
+{
+	
+	height: auto;
+}
+.item-details:after 
+{
+	clear : both;
+	content : "";
+	display : block;
+}
+
+.item-details-left,
+.item-details-right
+{
+	
+	float : left;
+	height: 73px;
+	margin : auto;
+}
+
+.item-details-left
+{
+	width :151.1px;
+     /* background-color: red;	   */
+}
+
+.item-details-right
+{
+	width : 130px;
+	position : absolute; 
+	text-align: center;
+	 /* background-color: gray; */
+} 
+
+.item-image
+{
+	height: auto;
+	/* background-color : hotpink; */
+	width : auto;
+	margin : auto;
+	
+	
+}
+
+.item-buy-wish
+{
+	height : auto;
+	background-color : snow;
+}
+
+.item-buy-wish:after 
+{
+	clear: both;
+	content : "";
+	display: block;
+}
+
+.item-buy-wish-left,
+.item-buy-wish-right
+{
+	float : left;
+	height : 110px;
+	margin : auto;
+
+}
+
+.item-buy-wish-left
+{
+	width : 140px;
+	/* background-color: red; */
+	
+}
+.item-buy-wish-right
+{
+	width : 151.5px;
+	/* background-color: gray; */
+	position : absolute;
+	
+}
+
+.item-details-price-location
+{
+	
+	padding-left : 5px;
+	margin-top : 2px;
+	margin-left : 5px;
+	width : auto;
+	border : 1px inset snow;
+	border-radius : 5px;
+}
+
+.image
+{
+	
+	margin:  5px ;
+	width: 278px;	
+}
+
+.stars
+{
+	
+	display: inline;
+	margin : 0;
+	/* object-fit: contain; */
+
+}
+
+.wishBuy1,
+.wishBuy2
+{
+	width : auto;
+	height : 30px;
+}
+ /* .box-item1
+{
+	width: 5%;
+}
+
+.box-item2
+{
+	width : 22.5%;
+}
+
+.box-item3
+{
+	width : 22.5%;	
+}
+
+.box-item4
+{
+	width : 22.5%;	
+}
+
+.box-item5
+{
+	width : 22.5%;
+}
+
+.box-item6
+{
+	width : 5%;
+} */
+
+
+/*End  Main*/
+
+/*footer*/
+
+#global_footer
+{
+max-width : 100%;
+max-height: 150px;	
+
+}
+
+.footer_wrap
+{
+height : 150px;
+width  : 33.33%;	
+display : block;
+float : left;
+position:relative;
+text-align :left;
+}
+
+/*end Footer*/
+
+
+
+ /* @media screen and (max-width:99%){
+
+	.item-details-right{
+		position : absolute;
+	}
+
+	.item-buy-wish-right{
+		position: absolute;
+	}
+
+}   */

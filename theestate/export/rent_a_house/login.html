@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Guild.com/LogIn</title>
+	<link rel = "stylesheet " type = "text/css" href = "LogIn-SignUp.css" media = "screen">
+	<link rel="stylesheet" type="text/css" href="../styles/bootstrap4/bootstrap.min.css">
+	<link href="../plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+
+	
+</head>
+<body>
+
+	<main class = "Login-SignUp-container">
+		
+		
+	
+		<div class="logo logo-LogIn">
+	
+			<a href="../homepage.php">
+				<img src="../images/logo.png" alt="Guild Logo"><br />
+				<label class = "Logo-text-align"> Guild</label>
+			</a>			
+			</div>
+	
+		
+	<div class = "flex-method-row flex-put-center">		
+	<h1>Log in to Guild</h1>
+	</div>
+	
+	
+	
+	<form action="login.php" method="POST">
+		
+		<label class = "flex-method-row flex-put-center padding-top" for = "InputPassword">Email</label>	
+		<div class = "input-group input-group-lg over-padding flex-method-row flex-put-center">
+			
+			<span class = "input-group-addon">
+				<i class = "fa fa-envelope"></i>
+			</span>
+				<input class = "form-control" type="email" name="email" required="required" placeholder="Enter Email">
+		</div>	
+		
+		<label class = "flex-method-row flex-put-center" for = "InputPassword">Password</label>	
+		<div class = "input-group input-group-lg over-padding flex-method-row flex-put-center">
+			<span class = "input-group-addon">
+				<i class = "fa fa-envelope"></i>
+			</span>
+				<input class = "form-control" type="password" name="password" required="required" placeholder="Enter password">
+		</div>
+		
+		
+		
+		<div class = "flex-method-row flex-put-center over-padding">
+				<button class = "flex-method-row flex-put-center btn btn-default margin-padding-group" type="submit" name="signin" value="Sign in"> Submit</button>
+				
+		</div>	
+		</form>	
+	
+		<div class  = " over-padding">
+				
+					<button class = "flex-method-row flex-put-center forgot-pass btn btn-default  margin-padding-group" id = "modalForgotpass">forgot password?</button>
+				
+		</div>
+		<a class ="over-padding" href="signin.html">
+				
+			<button class = "flex-method-row flex-put-center btn btn-default margin-padding-group ">
+				Create Account?
+			</button>
+		</a>
+		<div class  = "flex-method-row  over-padding">
+				<a href="help-logIn.php">
+					<label class = "forgot-pass">Need help Logging In?</label>
+				</a>
+	    </div>
+	
+	<form method = "Post" action = "">
+		<div class="input-group input-group-lg over-padding simple_modal flex-method-row flex-put-center over-padding" id="modal">
+			<div class="modal_content">
+				
+					<span class="closebtn" id = "closeBtn">&times; </span>
+				<label class = "flex-method-row flex-put-center over-padding forgot_pass_modal_label">Enter your phone number for confirmation</label> <br />
+				<span class = "flex-method-row flex-put-center over-padding">
+				<input class = "form-control" type = "text" name = "UserPhone-ask" id = "user-phone-ask"  required="required" placeholder="enter phone number"/>
+				<br />
+				
+				</span>	
+				<span class = "flex-method-row flex-put-center over-padding">
+				<button class = "btn btn-primary" type = "submit" name = "Userphone-sub" id = "user-phone-sub"  value="next"><label id = "nect-label">Next</label> </button>
+				</span>
+			</div>
+		</div>
+		</form>
+		
+		<form method = "" action = "">
+				<div class="input-group input-group-lg over-padding simple_modal flex-method-row flex-put-center over-padding" id="modal2">
+					<div class="modal_content">
+						
+							<span class="closebtn" id = "closeBtn2"> &times; </span>
+						<label class = "flex-method-row flex-put-center over-padding forgot_pass_modal_label">A confirmation code has been sent to your mobile<br />Please enter the six digit code</label> <br />
+						<span class = "flex-method-row flex-put-center over-padding">
+						<input class = "form-control" type = "text" name = "Confirmation-code-ask" id = "user-confirmation-code"  required="required" placeholder="enter code"/>
+						<br />
+						
+						</span>	
+						<span class = "flex-method-row flex-put-center over-padding">
+						<button class = "btn btn-primary" type = "submit" name = "Confirmation-code-sub" id = "confirmation-code-sub"  value="next"><label id = "nect-label">Next</label> </button>
+						</span>
+					</div>
+				</div>
+				</form>
+			       <form method = "" action = "">
+						<div class="input-group input-group-lg over-padding simple_modal flex-method-row flex-put-center over-padding" id="modal3">
+							<div class="modal_content">
+								
+									<span class="closebtn" id = "closeBtn3"> &times; </span>
+								<label class = "flex-method-row flex-put-center over-padding forgot_pass_modal_label">Reset Your Password</label> <br />
+								<span class = "flex-method-row flex-put-center over-padding">
+								<input class = "form-control" type = "password" name = "NewPassword-ask" id = "NewPassword"  required="required" placeholder="enter new password"/>
+								<input class = "form-control" type = "password" name = "CNewPassword-ask" id = "CNewPassword"  required="required" placeholder="confirm new password"/>
+								
+								</span>	
+								<span class = "flex-method-row flex-put-center over-padding">
+								<button class = "btn btn-primary" type = "submit" name = "NewPassword" id = "NewPass"  value="next"> <label id = "nect-label">Next</label> </button>
+								</span>
+							</div>
+						</div>
+						</form>
+						<form method = "" action = "">
+								<div class="input-group input-group-lg over-padding simple_modal flex-method-row flex-put-center over-padding" id="modal4">
+									<div class="modal_content">
+										
+											<span class="closebtn" id = "closeBtn4"> &times; </span>
+										<label class = "flex-method-row flex-put-center over-padding forgot_pass_modal_label">Password Reset Successfull</label>
+										
+										<span class = "flex-method-row flex-put-center over-padding">
+										<a href = "login.html">
+										<button class = "btn btn-primary" type = "submit" name = "btnToLogIn" id = "btnToLogIn"  value="next"><label id = "nect-label">Log In</label> </button>
+										</a>
+										</span>
+									</div>
+								</div>
+								</form>
+    </main>
+
+<script src="../styles/bootstrap4/popper.js"></script>
+<script src="../styles/bootstrap4/bootstrap.min.js"></script>
+<script src = "Forgot-password.js"></script>
+</body>
+</html>
+
